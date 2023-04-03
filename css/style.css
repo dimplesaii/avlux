@@ -530,7 +530,7 @@ figure{
   z-index:100;
   display:none;
   background:#ffffff;
-  border-bottom: 3px solid #001933;
+  
 }
 
 .main-menu .navigation > li > ul > li{
@@ -565,9 +565,7 @@ figure{
 .main-menu .navigation > li > ul > li:hover > a{
   color: #fff;
 }
-.main-menu .navigation > li > ul > li:hover{
-  background: #001933;
-}
+
 
 .main-menu .navigation > li.dropdown:hover > ul{
   visibility:visible;
@@ -607,8 +605,8 @@ figure{
 }
 .sticky-header .main-menu .navigation > li.current > a,
 .sticky-header .main-menu .navigation > li:hover > a{
-  background: #001933;
-  color: #001933;
+
+  color: #ffffff;
 }
 .sticky-header .main-menu{
   margin-left: 40px;
@@ -706,7 +704,7 @@ figure{
   font-family: 'Montserrat', sans-serif;
   color: #ffffff;
   font-weight: 600;
-  margin-top: 27px;
+  margin-top: -17px;
   -webkit-animation: pulse 2s infinite;
   -o-animation: pulse 2s infinite;
   animation: pulse 2s infinite;
@@ -730,13 +728,14 @@ figure{
   transition: all 500ms ease !important;
 }
 .main-slider .slider-content a:hover{
-  background: #000000;
+  background: #6a7689;
+  color:black
 }
 .main-slider .slider-content{
   position: relative;
   display: inline-block;
-  padding: 50px 70px 48px 40px;
-  background: rgb(0, 0, 0, 0.6);
+  padding: 50px 20px 39px 42px;
+  background: #888888b3;
   margin-top: 148px;
 }
 
@@ -2508,3 +2507,11 @@ figure{
   border-radius: 3px;
   text-transform: uppercase;
 }
+
+
+
+.clearfix li:hover {
+	color: #111;
+	transform: scale(1.2);
+	text-shadow: none;
+  }

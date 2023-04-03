@@ -232,7 +232,7 @@
     line-height: 28px;
   }
   .main-slider .slider-content{
-    padding: 50px 30px;
+    padding: 36px 24px;
   }
   .intro-section .intro-content .single-item{
     width: 100%;
@@ -256,14 +256,15 @@
     font-size: 40px;
   }
   .main-slider .slider-content{
-    display: none;
+    padding: 36px 24px;
   }
 
 }
 
-@media only screen and (max-width: 349px){
+@media only screen and (max-width: 399px){
 
-
+  .main-menu {
+    margin-left:266px;}
 
 }
 
